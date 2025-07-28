@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0,
+    maximum-scale=1.0, user-scalable=no"
+    />
+    <meta
+      name="description"
+      content="Join the campaign together we are stronger "
+    />
+    <meta
+      name="keywords"
+      content="Volyap, Palestine, Campaign, Sweater, Freedom"
+    />
+    <meta name="author" content="Mayang Sari" />
+    <title>Volyap For Palestine</title>
+    <link rel="icon" href="favicon.png" type="image/png" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+  </head>
+  <body>
+    <header class="global-header">
+      <img src="img/Brand.png" alt="Brand" class="brand-logo" />
+    </header>
+    <div id="page-1" class="page homepage">
+      <p><i>Hello welcome and let's read a little more</i></p>
+      <button onclick="showPage('page-2')" class="main-btn">
+        Join the campaign
+      </button>
+      <footer>&copy; 2025 Volyap. Built with belief</footer>
+    </div>
+
+    <div id="page-2" class="page" style="display: none">
+      <div class="carousel-container">
+        <div class="carousel">
+          <div class="card vertical-scroll" onclick="showContent('about')">
+            <div class="scroll-wrapper">
+              <img src="img/Logo.png" alt="Volyap logo" />
+              <img src="img/Label.png" alt="Volyap label" />
+              <img src="img/Motto.png" alt="Volyap motto" />
+              <img src="img/Logo.png" alt="Volyap logo" />
+              <img src="img/Label.png" alt="Volyap label" />
+              <img src="img/Motto.png" alt="Volyap motto" />
+            </div>
+            <div class="card-label">ABOUT</div>
+          </div>
+
+          <div class="card vertical-scroll" onclick="showContent('product')">
+            <div class="scroll-wrapper">
+              <img src="img/One.png" alt="front view of sweater" />
+              <img src="img/Two.png" alt="side view of sweater" />
+              <img src="img/Three.png" alt="back view of sweater" />
+              <img src="img/One.png" alt="front view of sweater" />
+              <img src="img/Two.png" alt="side view of sweater" />
+              <img src="img/Three.png" alt="back view of sweater" />
+            </div>
+            <div class="card-label">PRODUCT</div>
+          </div>
+
+          <div class="card vertical-scroll" onclick="showContent('contact')">
+            <div class="scroll-wrapper">
+              <img src="img/Person.png" alt="Contact person icon" />
+              <img src="img/Call.png" alt="Call icon" />
+              <img src="img/Letter.png" alt="Letter icon" />
+              <img src="img/Person.png" alt="Contact person icon" />
+              <img src="img/Call.png" alt="Call icon" />
+              <img src="img/Letter.png" alt="Letter icon" />
+            </div>
+            <div class="card-label">CONTACT</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="content-container form-hidden" id="about-content">
+        <div class="text-section">
+          <h2 class="sub-heading">The History: Why I Made Volyap</h2>
+          <p class="paragraph">
+            Volyap comes from my deepest desire an ordinary student with a heart
+            for extraordinary impact. This brand is my way to speak up and
+            invite everyone to join the "Volyap For Palestine" campaign because
+            I believe this movement can keep reminding the world of the
+            injustice that’s happening. And that silence is never neutral. Some
+            of us may not all be able to go there but through the sweater we
+            wear, we can carry the message of freedom anywhere.
+          </p>
+
+          <h2 class="sub-heading">What does “Volyap” mean?</h2>
+          <p class="paragraph">
+            VOLYAP is an abbreviation of Volya Yafuz Pian, Volya is Slavic for
+            "will", Yafuz is Arabic for "win", Pian is Finnish for "soon". And
+            for the logo is an illustration of an olive fruit which is one of
+            the characteristics of Palestine.
+          </p>
+
+          <h2 class="sub-heading">Vision and Mission</h2>
+          <p class="paragraph">
+            Volyap has a motto "Victory is near" and 70% of profits from Volyap
+            sweater sales will be donated for our brothers and sisters in
+            Palestine. We use a pre-order system, so you only pay when your
+            order is ready. After the specified period ends, the donation
+            results will be shared transparently through Volyap's social media
+            accounts.
+          </p>
+        </div>
+      </div>
+
+      <div class="content-container form-hidden" id="product-content">
+        <img src="img/Price.jpg" alt="Sweater's Price" class="price-image" />
+        <div class="swiper mySwiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <img src="img/First.jpg" alt="First with background" />
+            </div>
+            <div class="swiper-slide">
+              <img src="img/Second.jpg" alt="Second with background" />
+            </div>
+            <div class="swiper-slide">
+              <img src="img/Third.jpg" alt="Third with background" />
+            </div>
+          </div>
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-pagination"></div>
+        </div>
+        <h3 class="sub-heading">Vol 01: Gaza</h3>
+        <ul class="material-list">
+          <li>Fabric 100% Cotton Fleece Premium</li>
+          <li>Paypal accepted for worldwide payment</li>
+          <div class="product-image"></div>
+          <img src="img/Size.jpg" alt="Size Chart" />
+          <li>
+            Color is grey but may vary slightly depending on screen lighting.
+          </li>
+          <li>Shipping costs are not included in the sweater price</li>
+          <li>Label "Victory is near" on the right wrist</li>
+        </ul>
+      </div>
+      <div class="content-container form-hidden" id="contact-content">
+        <div class="contact-info"></div>
+        <p class="paragraph">
+          Email: volyap2025@gmail.com Instagram and Tiktok: @volyap.official
+          Location: Indonesia
+        </p>
+        <form
+          action="https://getform.io/f/awnwpnpb"
+          method="POST"
+          id="contact-form"
+        >
+          <label for="name">Name</label>
+          <input
+            id="name"
+            type="text"
+            name="name"
+            placeholder="Name"
+            required
+          />
+
+          <label for="phone">Phone</label>
+          <input
+            id="phone"
+            type="tel"
+            name="phone"
+            placeholder="Phone"
+            required
+          />
+
+          <label for="message">Message</label>
+          <textarea
+            id="message"
+            name="message"
+            placeholder="Message"
+          ></textarea>
+
+          <button type="submit">Complete the Participation</button>
+        </form>
+      </div>
+      <footer>&copy; 2025 Volyap. Built with belief</footer>
+    </div>
+
+    <div id="page-3" class="page" style="display: none">
+      <p><i>Thankyou for joining the movement</i></p>
+      <footer>&copy; 2025 Volyap. Built with belief</footer>
+    </div>
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
