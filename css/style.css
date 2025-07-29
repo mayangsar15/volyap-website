@@ -210,7 +210,7 @@ header.global-header {
 #contact-content form {
   align-items: center;
   width: 100%;
-  max-width: 320px;
+  max-width: 300px;
   overflow-wrap: break-word;
   margin: 0 auto;
   background-color: #fff;
@@ -228,12 +228,13 @@ header.global-header {
   font-weight: bold;
   color: #444;
 }
+
 #contact-content form input,
 #contact-content form textarea {
   width: 100%;
-  max-width: 500px;
+  max-width: 300px;
   padding: 10px;
-  border-radius: 6x;
+  border-radius: 5x;
   font-family: inherit;
   position: relative;
   z-index: 2;
